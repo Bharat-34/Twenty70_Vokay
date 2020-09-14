@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F89B3D250FCA9700F932C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F89B3C250FCA9700F932C9 /* AppDelegate.swift */; };
+		04F89B3F250FCA9700F932C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F89B3E250FCA9700F932C9 /* SceneDelegate.swift */; };
+		04F89B41250FCA9700F932C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F89B40250FCA9700F932C9 /* ContentView.swift */; };
+		04F89B43250FCA9900F932C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F89B42250FCA9900F932C9 /* Assets.xcassets */; };
+		04F89B46250FCA9900F932C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F89B45250FCA9900F932C9 /* Preview Assets.xcassets */; };
+		04F89B49250FCA9900F932C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F89B47250FCA9900F932C9 /* LaunchScreen.storyboard */; };
+		04F89B54250FCA9900F932C9 /* Twenty70_VokayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F89B53250FCA9900F932C9 /* Twenty70_VokayTests.swift */; };
+		04F89B5F250FCA9900F932C9 /* Twenty70_VokayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F89B5E250FCA9900F932C9 /* Twenty70_VokayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F89B50250FCA9900F932C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F89B31250FCA9700F932C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F89B38250FCA9700F932C9;
+			remoteInfo = Twenty70_Vokay;
+		};
+		04F89B5B250FCA9900F932C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F89B31250FCA9700F932C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F89B38250FCA9700F932C9;
+			remoteInfo = Twenty70_Vokay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F89B39250FCA9700F932C9 /* Twenty70_Vokay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twenty70_Vokay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F89B3C250FCA9700F932C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F89B3E250FCA9700F932C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04F89B40250FCA9700F932C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04F89B42250FCA9900F932C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F89B45250FCA9900F932C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04F89B48250FCA9900F932C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F89B4A250FCA9900F932C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F89B4F250FCA9900F932C9 /* Twenty70_VokayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Twenty70_VokayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F89B53250FCA9900F932C9 /* Twenty70_VokayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twenty70_VokayTests.swift; sourceTree = "<group>"; };
+		04F89B55250FCA9900F932C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F89B5A250FCA9900F932C9 /* Twenty70_VokayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Twenty70_VokayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F89B5E250FCA9900F932C9 /* Twenty70_VokayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twenty70_VokayUITests.swift; sourceTree = "<group>"; };
+		04F89B60250FCA9900F932C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F89B36250FCA9700F932C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89B4C250FCA9900F932C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89B57250FCA9900F932C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F89B30250FCA9700F932C9 = {
+			isa = PBXGroup;
+			children = (
+				04F89B3B250FCA9700F932C9 /* Twenty70_Vokay */,
+				04F89B52250FCA9900F932C9 /* Twenty70_VokayTests */,
+				04F89B5D250FCA9900F932C9 /* Twenty70_VokayUITests */,
+				04F89B3A250FCA9700F932C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F89B3A250FCA9700F932C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F89B39250FCA9700F932C9 /* Twenty70_Vokay.app */,
+				04F89B4F250FCA9900F932C9 /* Twenty70_VokayTests.xctest */,
+				04F89B5A250FCA9900F932C9 /* Twenty70_VokayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F89B3B250FCA9700F932C9 /* Twenty70_Vokay */ = {
+			isa = PBXGroup;
+			children = (
+				04F89B3C250FCA9700F932C9 /* AppDelegate.swift */,
+				04F89B3E250FCA9700F932C9 /* SceneDelegate.swift */,
+				04F89B40250FCA9700F932C9 /* ContentView.swift */,
+				04F89B42250FCA9900F932C9 /* Assets.xcassets */,
+				04F89B47250FCA9900F932C9 /* LaunchScreen.storyboard */,
+				04F89B4A250FCA9900F932C9 /* Info.plist */,
+				04F89B44250FCA9900F932C9 /* Preview Content */,
+			);
+			path = Twenty70_Vokay;
+			sourceTree = "<group>";
+		};
+		04F89B44250FCA9900F932C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04F89B45250FCA9900F932C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04F89B52250FCA9900F932C9 /* Twenty70_VokayTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F89B53250FCA9900F932C9 /* Twenty70_VokayTests.swift */,
+				04F89B55250FCA9900F932C9 /* Info.plist */,
+			);
+			path = Twenty70_VokayTests;
+			sourceTree = "<group>";
+		};
+		04F89B5D250FCA9900F932C9 /* Twenty70_VokayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F89B5E250FCA9900F932C9 /* Twenty70_VokayUITests.swift */,
+				04F89B60250FCA9900F932C9 /* Info.plist */,
+			);
+			path = Twenty70_VokayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F89B38250FCA9700F932C9 /* Twenty70_Vokay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F89B63250FCA9900F932C9 /* Build configuration list for PBXNativeTarget "Twenty70_Vokay" */;
+			buildPhases = (
+				04F89B35250FCA9700F932C9 /* Sources */,
+				04F89B36250FCA9700F932C9 /* Frameworks */,
+				04F89B37250FCA9700F932C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twenty70_Vokay;
+			productName = Twenty70_Vokay;
+			productReference = 04F89B39250FCA9700F932C9 /* Twenty70_Vokay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F89B4E250FCA9900F932C9 /* Twenty70_VokayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F89B66250FCA9900F932C9 /* Build configuration list for PBXNativeTarget "Twenty70_VokayTests" */;
+			buildPhases = (
+				04F89B4B250FCA9900F932C9 /* Sources */,
+				04F89B4C250FCA9900F932C9 /* Frameworks */,
+				04F89B4D250FCA9900F932C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F89B51250FCA9900F932C9 /* PBXTargetDependency */,
+			);
+			name = Twenty70_VokayTests;
+			productName = Twenty70_VokayTests;
+			productReference = 04F89B4F250FCA9900F932C9 /* Twenty70_VokayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F89B59250FCA9900F932C9 /* Twenty70_VokayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F89B69250FCA9900F932C9 /* Build configuration list for PBXNativeTarget "Twenty70_VokayUITests" */;
+			buildPhases = (
+				04F89B56250FCA9900F932C9 /* Sources */,
+				04F89B57250FCA9900F932C9 /* Frameworks */,
+				04F89B58250FCA9900F932C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F89B5C250FCA9900F932C9 /* PBXTargetDependency */,
+			);
+			name = Twenty70_VokayUITests;
+			productName = Twenty70_VokayUITests;
+			productReference = 04F89B5A250FCA9900F932C9 /* Twenty70_VokayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F89B31250FCA9700F932C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Twenty70_CyberMedia;
+				TargetAttributes = {
+					04F89B38250FCA9700F932C9 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					04F89B4E250FCA9900F932C9 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 04F89B38250FCA9700F932C9;
+					};
+					04F89B59250FCA9900F932C9 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 04F89B38250FCA9700F932C9;
+					};
+				};
+			};
+			buildConfigurationList = 04F89B34250FCA9700F932C9 /* Build configuration list for PBXProject "Twenty70_Vokay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F89B30250FCA9700F932C9;
+			productRefGroup = 04F89B3A250FCA9700F932C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F89B38250FCA9700F932C9 /* Twenty70_Vokay */,
+				04F89B4E250FCA9900F932C9 /* Twenty70_VokayTests */,
+				04F89B59250FCA9900F932C9 /* Twenty70_VokayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F89B37250FCA9700F932C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F89B49250FCA9900F932C9 /* LaunchScreen.storyboard in Resources */,
+				04F89B46250FCA9900F932C9 /* Preview Assets.xcassets in Resources */,
+				04F89B43250FCA9900F932C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89B4D250FCA9900F932C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89B58250FCA9900F932C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F89B35250FCA9700F932C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F89B3D250FCA9700F932C9 /* AppDelegate.swift in Sources */,
+				04F89B3F250FCA9700F932C9 /* SceneDelegate.swift in Sources */,
+				04F89B41250FCA9700F932C9 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89B4B250FCA9900F932C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F89B54250FCA9900F932C9 /* Twenty70_VokayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89B56250FCA9900F932C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F89B5F250FCA9900F932C9 /* Twenty70_VokayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F89B51250FCA9900F932C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F89B38250FCA9700F932C9 /* Twenty70_Vokay */;
+			targetProxy = 04F89B50250FCA9900F932C9 /* PBXContainerItemProxy */;
+		};
+		04F89B5C250FCA9900F932C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F89B38250FCA9700F932C9 /* Twenty70_Vokay */;
+			targetProxy = 04F89B5B250FCA9900F932C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F89B47250FCA9900F932C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F89B48250FCA9900F932C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F89B61250FCA9900F932C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F89B62250FCA9900F932C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F89B64250FCA9900F932C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Twenty70_Vokay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Twenty70_Vokay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twenty70cybermedia.Twenty70-Vokay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F89B65250FCA9900F932C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Twenty70_Vokay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Twenty70_Vokay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twenty70cybermedia.Twenty70-Vokay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F89B67250FCA9900F932C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Twenty70_VokayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twenty70cybermedia.Twenty70-VokayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twenty70_Vokay.app/Twenty70_Vokay";
+			};
+			name = Debug;
+		};
+		04F89B68250FCA9900F932C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Twenty70_VokayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twenty70cybermedia.Twenty70-VokayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twenty70_Vokay.app/Twenty70_Vokay";
+			};
+			name = Release;
+		};
+		04F89B6A250FCA9900F932C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Twenty70_VokayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twenty70cybermedia.Twenty70-VokayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twenty70_Vokay;
+			};
+			name = Debug;
+		};
+		04F89B6B250FCA9900F932C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Twenty70_VokayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twenty70cybermedia.Twenty70-VokayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twenty70_Vokay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F89B34250FCA9700F932C9 /* Build configuration list for PBXProject "Twenty70_Vokay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F89B61250FCA9900F932C9 /* Debug */,
+				04F89B62250FCA9900F932C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F89B63250FCA9900F932C9 /* Build configuration list for PBXNativeTarget "Twenty70_Vokay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F89B64250FCA9900F932C9 /* Debug */,
+				04F89B65250FCA9900F932C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F89B66250FCA9900F932C9 /* Build configuration list for PBXNativeTarget "Twenty70_VokayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F89B67250FCA9900F932C9 /* Debug */,
+				04F89B68250FCA9900F932C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F89B69250FCA9900F932C9 /* Build configuration list for PBXNativeTarget "Twenty70_VokayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F89B6A250FCA9900F932C9 /* Debug */,
+				04F89B6B250FCA9900F932C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F89B31250FCA9700F932C9 /* Project object */;
+}
